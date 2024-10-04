@@ -1,3 +1,4 @@
+```
 <!DOCTYPE html>
 <html lang="en"></html>
   <head>
@@ -140,6 +141,7 @@
       <label id="label-suggestion" for="suggestion">What suggestions do you have for improving our pet store? (optional)
       <textarea id="suggestion" name="suggestion" rows="4" cols="30" placeholder="Please share any additional feedback or suggestions"></textarea>
       </label>
+```
       <input id="submit" type="submit" value="Submit" />
     </form>
   </body>
