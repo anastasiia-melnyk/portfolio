@@ -1,4 +1,3 @@
-```
 <!DOCTYPE html>
 <html lang="en"></html>
   <head>
@@ -7,91 +6,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <h1 id="title">Pet Store Customers Survey Form</h1>
     <p id="description">
       We value your feedback! Please complete the survey to help us improve your shopping experience.
     </p>
+
     <form id="survey-form">
       <label id="name-label" for="name">Name</label>
-      <input id="name" type="text" placeholder="Enter your full name" required />
+        <input id="name" type="text" placeholder="Enter your full name" required />
+      
       <label id="email-label" for="email">Email</label>
-      <input id="email" type="email" placeholder="Enter your email" required />
+        <input id="email" type="email" placeholder="Enter your email" required />
+      
       <label id="number-label" for="number">Age (optional)</label>
-      <input id="number" type="number" min="18" max="120" placeholder="Specify your age" />
+        <input id="number" type="number" min="18" max="120" placeholder="Specify your age" />
+      
       <legend>What type of pet(s) do you have?</legend>
       <label for="dog">
         <input class="inline" id="dog" type="checkbox" name="pet-type" value="og" required /> Dog
       </label>
+      
       <label for="cat">
         <input class="inline" id="cat" type="checkbox" name="pet-type" value="cat" /> Cat
       </label>
+      
       <label for="bird">
         <input class="inline" id="bird" type="checkbox" name="pet-type" value="bird" /> Bird
       </label>
+      
       <label for="fish">
         <input class="inline" id="fish" type="checkbox" name="pet-type" value="fish" /> Fish
       </label>
+      
       <label for="reptile">
         <input class="inline" id="reptile" type="checkbox" name="pet-type" value="reptile" /> Reptile (i.e. lizard, snake, turtle)
       </label>
+      
       <label for="rodent">
         <input class="inline" id="rodent" type="checkbox" name="pet-type" value="rodent" /> Rodent (i.e. hamster, rabbit, mouse, gerbil, rat)
       </label>
+      
       <label for="amphibian">
         <input class="inline" id="amphibian" type="checkbox" name="pet-type" value="amphibian" /> Amphibian (i.e. frog, newt)
       </label>
+      
       <label for="other">
         <input class="inline" id="other" type="checkbox" name="pet-type" value="other" /> Other
       </label>
+      
       <legend>How often do you buy pet products in our pet store?</legend>
       <label for="daily">
         <input class="inline" id="daily" type="radio" name="purchase-frequency" value="daily" checked required /> Daily
       </label>
+      
       <label for="weekly">
         <input class="inline" id="weekly" type="radio" name="purchase-frequency" value="weekly" /> Weekly
       </label>
+      
       <label for="monthly">
         <input class="inline" id="monthly" type="radio" name="purchase-frequency" value="monthly" /> Monthly
       </label>
+      
       <label for="occasionally">
         <input class="inline" id="occasionally" type="radio" name="purchase-frequency" value="occasionally" /> Occasionally
       </label>
+      
       <label for="rarely">
         <input class="inline" id="rarely" type="radio" name="purchase-frequency" value="rarely" /> Rarely
       </label>
+      
       <label for="first-time">
         <input class="inline" id="first-time" type="radio" name="purchase-frequency" value="first-time" /> First time
       </label>
+      
       <legend>How do you usually make your purchases in our pet store?</legend>
       <label for="online">
         <input class="inline" id="online" type="radio" name="purchase-type" value="online" checked required /> Online
       </label>
+      
       <label for="in-store">
         <input class="inline" id="in-store" type="radio" name="purchase-type" value="in-store" /> In-store
       </label>
+      
       <label for="mix">
         <input class="inline" id="mix" type="radio" name="purchase-type" value="mix" /> A mix of both options
       </label>
+      
       <legend>What pet products do you usually buy in our pet store?</legend>
       <label for="pet-food">
         <input class="inline" id="pet-food" type="checkbox" name="pet-products" value="pet-food" required /> Pet food
       </label>
+      
       <label for="toys">
         <input class="inline" id="toys" type="checkbox" name="pet-products" value="toys" /> Pet toys
       </label>
+      
       <label for="pet-accessories">
         <input class="inline" id="pet-accessories" type="checkbox" name="pet-products" value="pet-accessories" /> Pet accessories
       </label>
+      
       <label for="pet-cleaners">
         <input class="inline" id="pet-cleaners" type="checkbox" name="pet-products" value="pet-cleaners" /> Pet cleaning products
       </label>
+      
       <label for="grooming-products">
         <input class="inline" id="grooming-products" type="checkbox" name="pet-products" value="grooming-products" /> Grooming products
       </label>
+      
       <label for="veterinary-supplies">
         <input class="inline" id="veterinary-supplies" type="checkbox" name="pet-products" value="veterinary-supplies" /> Veterinary supplies
       </label> 
+      
       <label id="label-dropdown" for="dropdown">How did you hear about our pet store?
         <select id="dropdown" required>
           <option value="">(Select one option)</option>
@@ -103,45 +130,58 @@
           <option value="6">Other</option>
         </select>
       </label>  
+      
       <legend>What do you value most in our pet store?</legend>
       <label for="product-variety">
         <input class="inline" id="product-variety" type="checkbox" name="values" value="product-variety" required /> Product variety
       </label>
+      
       <label for="product-quality">
         <input class="inline" id="product-quality" type="checkbox" name="values" value="product-quality" /> Quality of products
       </label>
+      
       <label for="customer-service">
         <input class="inline" id="customer-service" type="checkbox" name="values" value="customer-service" /> Customer service
       </label>
+      
       <label for="environment">
         <input class="inline" id="environment" type="checkbox" name="values" value="environment" /> Clean and organized environment
       </label>
+      
       <label for="prices">
         <input class="inline" id="prices" type="checkbox" name="values" value="prices" /> Affordable prices
       </label>
+      
       <label for="location">
         <input class="inline" id="location" type="checkbox" name="values" value="location" /> Convenient location
       </label>
+      
       <legend>How would you rate our customer service?</legend>
       <label for="very-satisfied">
         <input class="inline" id="very-satisfied" type="radio" name="rate" value="very-satisfied" checked required /> Very satisfied
       </label>
+      
       <label for="satisfied">
         <input class="inline" id="satisfied" type="radio" name="rate" value="satisfied" /> Satisfied
       </label>
+      
       <label for="neutral">
         <input class="inline" id="neutral" type="radio" name="rate" value="neutral" /> Neutral
       </label>
+      
       <label for="dissatisfied">
         <input class="inline" id="dissatisfied" type="radio" name="rate" value="dissatisfied" /> Dissatisfied
       </label>
+      
       <label for="very-dissatisfied">
         <input class="inline" id="very-dissatisfied" type="radio" name="rate" value="very-dissatisfied" /> Very dissatisfied
       </label>
+      
       <label id="label-suggestion" for="suggestion">What suggestions do you have for improving our pet store? (optional)
       <textarea id="suggestion" name="suggestion" rows="4" cols="30" placeholder="Please share any additional feedback or suggestions"></textarea>
       </label>
-```
+      
       <input id="submit" type="submit" value="Submit" />
     </form>
+
   </body>
