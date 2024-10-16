@@ -61,5 +61,5 @@ print(customer_one_itemization)
 # Task 18: print out the phrase "Customer One Total:"
 print("Customer One Total:")
 
-# Task 20: print out customer_one_total
+# Task 19: print out customer_one_total
 print(customer_one_total)
