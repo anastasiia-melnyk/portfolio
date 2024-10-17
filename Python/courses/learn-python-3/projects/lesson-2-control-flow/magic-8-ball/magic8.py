@@ -35,9 +35,9 @@ else:
 if question == "":
   print("Provide your question")
 else:
-    if name == "":
-      print("Question: " + question)
-    else:
-      print(name + " asks: " + question)
+  if name == "":
+    print("Question: " + question)
+  else:
+    print(name + " asks: " + question)
     
-    print("Magic 8-Ball's answer: " + answer)
+  print("Magic 8-Ball's answer: " + answer)
