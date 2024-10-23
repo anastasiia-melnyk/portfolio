@@ -1,10 +1,14 @@
-Course: Learn Python 3
+### Course:
+Learn Python 3
 
-Project: Thread Shed
+### Project:
+Thread Shed
 
-Project Link: https://www.codecademy.com/courses/learn-python-3/projects/thread-shed
+### Project Link:
+https://www.codecademy.com/courses/learn-python-3/projects/thread-shed
 
-Project Task: You’ve recently been hired as a cashier at the local sewing hobby shop, Thread Shed. Some of your daily responsibilities involve tallying the number of sales during the day, calculating the total amount of money made, and keeping track of the names of the customers.
+### Project Task:
+You’ve recently been hired as a cashier at the local sewing hobby shop, Thread Shed. Some of your daily responsibilities involve tallying the number of sales during the day, calculating the total amount of money made, and keeping track of the names of the customers.
 
 Unfortunately, the Thread Shed has an extremely outdated register system and stores all of the transaction information in one huge unwieldy string called daily_sales.
 
