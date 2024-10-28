@@ -51,16 +51,16 @@ def play_word(player, word):
   player_to_words[player].append(word)
 
 # Test the play_word function by adding new words for players
-play_word("Lexi Con", "Newword")
+play_word("Lexi Con", "pineapple")
 play_word("Prof Reader", "Apple")
 print(player_to_words)
 
 # Define a function that updates the total points for all players
 def update_point_totals():
-    for player, words in player_to_words.items():
-        player_points = 0
-        for word in words:
-            player_points += score_word(word)
+  player_points = 0
+  for player, words in player_to_words.items():
+      for word in words:
+        player_points += score_word(word)
         player_to_points[player] = player_points
 # Call the function to update point totals
 update_point_totals()
